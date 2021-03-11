@@ -1,0 +1,17 @@
+div.home_page {
+	height: 94.4vh;
+	background-color: #eee;
+	overflow-y: scroll;
+	position: relative;
+	z-index: 100;
+
+	div.home_page_wrapper {
+		width: 1020px;
+		// min-width: 1250px;
+		margin: 0 auto;
+		height: 100%;
+		div.home_page_body {
+			display: flex;
+		}
+	}
+}
